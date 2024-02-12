@@ -14,7 +14,7 @@ export class PresupuestoPage implements OnInit {
   public resultados: string = '';
   public errResultados: string='light';
   public gastosList:Gasto[]=[];
-
+  
   constructor(private presupuestoService : PresupuestoService) { }
 
   ngOnInit() {
